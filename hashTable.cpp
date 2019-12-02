@@ -85,7 +85,7 @@ bool hashTable::checkprime(unsigned int p) {
 // Returns next prime number after n
 int hashTable::getNextPrime (unsigned int n) {
     while ( !checkprime(++n) );
-    return n; // all your primes are belong to us
+    return n;
 }
 
 // Adds all words in Dictionary to hashTable
